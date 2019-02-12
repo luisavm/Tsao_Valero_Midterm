@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 /*css Document */
 
@@ -42,7 +43,7 @@ html {
 
 #logoCon svg
 {
-	width: 0 auto;
+	width: 100%;
 	z-index: 10;
 	-webkit-animation:stay 5s, slide-out-blurred-top 0.7s;
 	animation-delay: 0s, 5s;
@@ -499,7 +500,6 @@ html {
 .socialmediaIcon:hover .iconHover
 {
 	visibility: visible;
-	
 }
 
 #footerR
@@ -898,7 +898,7 @@ html {
 {
 	color: #5d7132;
 	margin-top: 20px;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .adIcon
@@ -1173,6 +1173,53 @@ html {
 	line-height: 21px;
 }
 
+.staffHover, .chairHover
+{
+	/*visibility: hidden;*/
+	font-size: 0;
+}
+
+.staff:hover .staffHover
+{
+	/*visibility: visible;*/
+	font-size: 16px;
+	color: #676565;
+}
+
+.staff:hover 
+{
+	background-color: #fff;
+}
+
+.staff:hover p
+{
+	color: #9abd4b;
+	border-top: 2px solid #9abd4b;
+	border-bottom: 2px solid #9abd4b;
+}
+
+.chair:hover .chairHover
+{
+	/*visibility: visible;*/
+	font-size: 16px;
+	color: #676565;
+	/*font-family: "Muli", Helvetica, Arial, sans-serif;*/
+	/*margin-left: 40px;*/
+	display: block;
+}
+
+.chair:hover 
+{
+	background-color: #fff;
+}
+
+.chair:hover p
+{
+	color: #9abd4b;
+	border-top: 2px solid #9abd4b;
+	border-bottom: 2px solid #9abd4b;
+}
+
 #localBusiness
 {
 	display: flex;
@@ -1236,13 +1283,11 @@ html {
 	width: 204px;
 	margin-left: 25px;
 	color: #4d4747;
-	font-size: 15px
-	letter-spacing: 2px;
-	word-spacing: 4px;
+	font-size: 15px;
 	text-align: left;
 	margin-top: 25px;
-	letter-spacing: 2px;
-	word-spacing: 5px;
+	/*letter-spacing: 2px;*/
+	/*word-spacing: 5px;*/
 	line-height: 17px;
 }
 
@@ -1535,11 +1580,42 @@ html {
 {
 	width: 372px;
 	height: 380px;
+	background-color: #9abd4b;
 }
 
 .archivesItem img
 {
 	position: absolute;
+}
+
+.archivesItem:hover img
+{
+	opacity: 0.5;
+}
+
+.archivesItem:hover h3
+{
+	-webkit-animation: text-shadow-pop-bottom 0.6s;
+}
+
+@-webkit-keyframes text-shadow-pop-bottom {
+  0% {
+    text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    text-shadow: 0 1px #555555, 0 2px #555555, 0 3px #555555, 0 4px #555555, 0 5px #555555, 0 6px #555555, 0 7px #555555, 0 8px #555555;
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+}
+
+.archivesItem:hover h3
+{
+	text-shadow: 0 1px #555555, 0 2px #555555, 0 3px #555555, 0 4px #555555, 0 5px #555555, 0 6px #555555, 0 7px #555555, 0 8px #555555;
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
 }
 
 .archivesItem h3
@@ -1876,6 +1952,23 @@ html {
 	filter: drop-shadow(0 0 0.3rem lightgrey);
 }
 
+.pasteventsRow a:hover 
+{
+	background-color: #fff;
+	color: #9abd4b;
+	-webkit-animation: shadow-inset-center 0.4s;
+	box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+}
+
+@-webkit-keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
 /*page ends*/
 
 #TRAAlinks
@@ -1897,7 +1990,7 @@ html {
 	font-size: 60px;
 	width: 467px;
 	line-height: 76px;
-	letter-spacing: 10px;
+	letter-spacing: 5px;
 	word-spacing: 10px;
 	line-height: 76px;
 	margin-left: 84px;
@@ -1909,7 +2002,7 @@ html {
 {
 	width: 511px;
 	font-size: 35px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	margin-left: 86px;
 	text-align: left;
 	margin-top: 46px;
@@ -2332,8 +2425,8 @@ html {
 	font-size: 15px;
 	text-align: left;
 	margin-left: 37px;
-	line-height: 20px;
-	margin-top: 71px;
+	line-height: 25px;
+	margin-top: 41px;
 	width: 386px;
 	word-spacing: 2px;
 }
@@ -2528,7 +2621,6 @@ textarea
 	font-style: italic;
 	line-height: 24px;
 	text-align: left;
-	font-style: 15px;
 }
 
 #visitHead
@@ -2667,4 +2759,19 @@ textarea
 	width: 370px;
 	margin-left: 26px;
 	line-height: 20px;
+}
+
+#default
+{
+	height: 300px;
+	background-image: linear-gradient(white, lightgreen);
+}
+
+#default h2
+{
+	font-size: 70px;
+	color: #9abd4b;
+	font-family: "Muli", Helvetica, Arial, sans-serif;
+	filter: drop-shadow(0 0 0.7rem lightgrey);
+	margin-top: 230px;
 }
