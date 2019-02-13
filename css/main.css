@@ -4,13 +4,13 @@
 h1, h2
 {
 	text-align: center;
-	font-family: "Muli", Helvetica, Arial, sans-serif;
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
 }
 
 h3, p
 {
 	text-align: center;
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 a:link, a:visited
@@ -84,7 +84,7 @@ html {
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	width: 100%; 
+	width: 100%;
 	height: 100%;
 }
 
@@ -300,16 +300,16 @@ html {
  	padding-left: 15px;
 }
 
-#mainNav ul li a:after 
+#mainNav ul li a:after
 {
   	display:block;
   	content: '';
-  	border-bottom: solid 3px #9abd4b;  
-  	transform: scaleX(0);  
+  	border-bottom: solid 3px #9abd4b;
+  	transform: scaleX(0);
   	transition: transform 250ms ease-in-out;
   	transform-origin:100% 50%
 }
-#mainNav ul li a:hover:after { 
+#mainNav ul li a:hover:after {
   	transform: scaleX(1);
   	transform-origin:0 50%;
 }
@@ -371,16 +371,16 @@ html {
  	padding-left: 15px;
 }
 
-#mainNavH ul li a:after 
+#mainNavH ul li a:after
 {
   	display:block;
   	content: '';
-  	border-bottom: solid 3px #9abd4b;  
-  	transform: scaleX(0);  
+  	border-bottom: solid 3px #9abd4b;
+  	transform: scaleX(0);
   	transition: transform 250ms ease-in-out;
   	transform-origin:100% 50%
 }
-#mainNavH ul li a:hover:after { 
+#mainNavH ul li a:hover:after {
   	transform: scaleX(1);
   	transform-origin:0 50%;
 }
@@ -441,15 +441,16 @@ html {
 	font-size: 15px;
 	color: #4d4747;
 	margin-bottom: 70px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 #emailHead
 {
-	font-family: "Muli", sans-serif;
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
 	color: #5d7132;
-	font-size: 20px;
-	word-spacing: 3px;
+	font-size: 18px;
+	/* word-spacing: 3px; */
 	margin-bottom: 10px;
 }
 
@@ -471,9 +472,9 @@ html {
 #socialMedia p
 {
 	margin-bottom: 24px;
-	font-family: "Muli", sans-serif;
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
 	color: #5d7132;
-	font-size: 20px;
+	font-size: 18px;
 	word-spacing: 3px;
 }
 
@@ -522,8 +523,9 @@ html {
 	font-size: 15px;
 	color: #4d4747;
 	margin-bottom: 80px;
-	word-spacing: 3px;
-	font-family: "Roboto", sans-serif;
+	/* word-spacing: 3px; */
+	line-height: 18px;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 
@@ -533,7 +535,7 @@ html {
 #TRAAnews
 {
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
 }
 
 #heroImage
@@ -564,7 +566,8 @@ html {
 	word-spacing: 6px;
 	line-height: 76px;
 	margin-left: 84px;
-	margin-top: 62px;
+	margin-top: 45px;
+	margin-bottom: 40px;
 	text-align: left;
 }
 
@@ -621,7 +624,7 @@ html {
 {
 	position: absolute;
 	width: 472px;
-	height: 387px;
+	height: 420px;
 	background-color: #FFF;
 	margin-top: 436px;
 	margin-left: 98px;
@@ -659,9 +662,9 @@ html {
 	text-align: left;
 	width: 386px;
 	margin-left: 30px;
-	line-height: 15px;
+	line-height: 23px;
 	margin-top: 31px;
-	word-spacing: 5px;
+	/* word-spacing: 5px; */
 }
 
 #imgTop
@@ -688,7 +691,7 @@ html {
 {
 	position: absolute;
 	width: 472px;
-	height: 552px;
+	height: 625px;
 	background-color: #fff;
 	z-index: 2;
 	margin-left: 420px;
@@ -724,9 +727,9 @@ html {
 	text-align: left;
 	width: 386px;
 	margin-left: 30px;
-	line-height: 15px;
+	line-height: 23px;
 	margin-top: 30px;
-	word-spacing: 5px;
+	/* word-spacing: 5px; */
 }
 
 #newEvents
@@ -745,7 +748,7 @@ html {
 	margin-left: 190px;
 	line-height: 100px;
 	font-size: 42px;
-	word-spacing: 5px;
+	/* word-spacing: 5px; */
 	letter-spacing: 2px;
 	color: #5d7132;
 }
@@ -755,6 +758,7 @@ html {
 	font-size: 30px;
 	color: #9abd4b;
 	letter-spacing: 5px;
+
 }
 
 #neweventsP
@@ -821,11 +825,12 @@ html {
 {
 	font-size: 30px;
 	color: #9abd4b;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 	text-align: left;
 	margin-top: 44px;
 	width: 386px;
 	margin-left: 30px;
+	line-height: 40px;
 }
 
 #oldeventInfo h3
@@ -845,10 +850,11 @@ html {
 	text-align: left;
 	width: 386px;
 	margin-left: 30px;
-	line-height: 20px;
+	line-height: 23px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	word-spacing: 5px;
+	/* word-spacing: 5px; */
+
 }
 
 
@@ -1002,7 +1008,7 @@ html {
 {
 	font-size: 35px;
 	color: #9abd4b;
-	word-spacing: 5px;
+	/* word-spacing: 5px; */
 	letter-spacing: 3px;
 	text-align: left;
 	margin-top: 33px;
@@ -1010,7 +1016,7 @@ html {
 	margin-left: 54px;
 }
 
-#aboutL ul 
+#aboutL ul
 {
 	list-style-type: disc;
 	margin-top: 38px;
@@ -1050,7 +1056,8 @@ html {
 	line-height: 20px;
 	margin-top: 52px;
 	margin-bottom: 20px;
-	word-spacing: 5px;
+	line-height: 23px;
+	/* word-spacing: 5px; */
 }
 
 #namesLists
@@ -1100,7 +1107,7 @@ html {
 	margin-bottom: 64px;
 	margin-left: 20px;
 	margin-right: 20px;
-	filter: drop-shadow(0 0 0.5rem lightgrey);	
+	filter: drop-shadow(0 0 0.5rem lightgrey);
 }
 
 .staff p
@@ -1185,7 +1192,7 @@ html {
 	color: #676565;
 }
 
-.staff:hover 
+.staff:hover
 {
 	background-color: #fff;
 }
@@ -1207,7 +1214,7 @@ html {
 	display: block;
 }
 
-.chair:hover 
+.chair:hover
 {
 	background-color: #fff;
 }
@@ -1242,16 +1249,30 @@ html {
 	font-size: 30px;
 	color: #9abd4b;
 	font-family: "Muli", Helvetica, Arial, sans-serif;
-	word-spacing: 4px;
+	/* word-spacing: 4px; */
 	letter-spacing: 3px;
 	margin-bottom: 21px;
+	line-height: 40px;
 }
+
+#localBusiness h4
+{
+	width: 687px;
+	font-size: 20px;
+	color: #5d7132;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	margin-bottom: 21px;
+	line-height: 40px;
+}
+
 
 #localBusiness p
 {
 	color: #4d4747;
 	font-size: 15px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
+	line-height: 23px;
+
 }
 
 .businessRow
@@ -1263,7 +1284,7 @@ html {
 .business
 {
 	width: 262px;
-	height: 577px;
+	height: 610px;
 	background-color: #fff;
 	margin-top: 50px;
 	margin-left: 20px;
@@ -1311,11 +1332,10 @@ html {
 	width: 467px;
 	height: 124px;
 	line-height: 74px;
-	letter-spacing: 15px;
-	word-spacing: 5px;
-	line-height: 65px;
+	letter-spacing: 7px;
+	/* word-spacing: 5px; */
 	margin-left: 94px;
-	margin-top: 50px;
+	margin-top: 43px;
 	text-align: left;
 }
 
@@ -1330,7 +1350,7 @@ html {
 	padding-top: 23px;
 	font-size: 35px;
 	line-height: 40px;
-	margin-top: 25px;
+	margin-top: 40px;
 	word-spacing: 2px;
 	font-family: "Muli", Helvetica, Arial, sans-serif;
 }
@@ -1713,8 +1733,8 @@ html {
 	font-size: 35px;
 	width: 542px;
 	line-height: 45px;
-	letter-spacing: 4px;
-	word-spacing: 5px;
+	letter-spacing: 3px;
+	/* word-spacing: 5px; */
 	margin-left: 94px;
 	margin-top: 50px;
 	text-align: left;
@@ -1773,7 +1793,7 @@ html {
 #listWhite
 {
 	width: 669px;
-	height: 967px;
+	height: 990px;
 	margin-left: 83px;
 	background-color: #fff;
 	filter: drop-shadow(0 0 0.5rem lightgrey);
@@ -1783,7 +1803,7 @@ html {
 
 #listWhite h2
 {
-	width: 555px;
+	width: 600px;
 	font-size: 42px;
 	color: #5d7132;
 	letter-spacing: 8px;
@@ -1792,17 +1812,20 @@ html {
 	margin-left: 64px;
 	text-align: center;
 	padding-bottom: 31px;
+	line-height: 60px;
 }
 
 #listWhite h3
 {
 	font-size: 30px;
 	color: #9abd4b;
-	letter-spacing: 5px;
-	word-spacing: 3px;
+	letter-spacing: 3px;
+	/* word-spacing: 3px; */
 	width: 621px;
 	margin-left: 31px;
 	font-family: "Muli", Helvetica, Arial, sans-serif;
+	line-height: 40px;
+
 }
 
 #newslettersRow
@@ -1951,7 +1974,7 @@ html {
 	filter: drop-shadow(0 0 0.3rem lightgrey);
 }
 
-.pasteventsRow a:hover 
+.pasteventsRow a:hover
 {
 	background-color: #fff;
 	color: #9abd4b;
@@ -1973,7 +1996,7 @@ html {
 #TRAAlinks
 {
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
 	margin-bottom: 1293px;
 }
 
@@ -2001,11 +2024,12 @@ html {
 {
 	width: 511px;
 	font-size: 35px;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	margin-left: 86px;
 	text-align: left;
 	margin-top: 46px;
 	font-weight: 100;
+	line-height: 40px;
 }
 
 #conservation
@@ -2136,12 +2160,13 @@ html {
 {
 	font-size: 30px;
 	color: #9abd4b;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 	text-align: left;
 	margin-top: 44px;
 	width: 386px;
 	margin-left: 30px;
 	margin-bottom: 41px;
+	line-height: 35px;
 }
 
 #conAuth ul li
@@ -2152,7 +2177,7 @@ html {
 	margin-left: 50px;
 	line-height: 21px;
 	margin-top: 14px;
-	word-spacing: 3px;
+	/* word-spacing: 3px; */
 	font-family: "Roboto", Helvetica, Arial, sans-serif;
 	list-style-type: disc;
 }
@@ -2187,12 +2212,13 @@ html {
 {
 	font-size: 30px;
 	color: #9abd4b;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 	text-align: left;
 	margin-top: 24px;
-	width: 386px;
+	width: 340px;
 	margin-left: 30px;
 	margin-bottom: 21px;
+	line-height: 35px;
 }
 
 #govEnt ul li
@@ -2229,7 +2255,7 @@ html {
 
 #relatedRetailers h2
 {
-	font-size: 30px;
+	font-size: 26px;
 	color: #9abd4b;
 	letter-spacing: 3px;
 	text-align: left;
@@ -2237,6 +2263,7 @@ html {
 	width: 330px;
 	margin-left: 30px;
 	margin-bottom: 21px;
+	line-height: 37px;
 }
 
 #relatedRetailers ul li
@@ -2283,7 +2310,7 @@ html {
 	margin-bottom: 31px;
 }
 
-#relatedLinks ul li 
+#relatedLinks ul li
 {
 	width: 740px;
 	font-size: 15px;
