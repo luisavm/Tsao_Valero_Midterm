@@ -13,9 +13,10 @@ Feel free to explore the whole webpage. You could see the animations some by hov
 
 ## Authors
 
-Designer - Luisa Valero
+Designer - Luisa Valero\
 Developer - Sandra Tsao (Ting-Hsuan)
 
 ## Versions
 
+2.0 Midterm final design for all 6 pages with animation activated
 1.0 Midterm version drafts for all 6 pages
