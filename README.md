@@ -18,5 +18,5 @@ Developer - Sandra Tsao (Ting-Hsuan)
 
 ## Versions
 
-2.0 Midterm final design for all 6 pages with animation activated
+2.0 Midterm final design for all 6 pages with animation activated\
 1.0 Midterm version drafts for all 6 pages
